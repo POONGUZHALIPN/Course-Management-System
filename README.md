@@ -1,4 +1,4 @@
-# Post-Management-System
+# Course-Management-System
 ## Project Title
 Student Course Management and Learning Progress Tracking System
 1. Project Overview
