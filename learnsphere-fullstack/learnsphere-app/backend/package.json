@@ -1,0 +1,11 @@
+{
+  "name": "learnsphere-app",
+  "version": "2.0.0",
+  "description": "LearnSphere — student/admin learning dashboard. Pure Node.js, zero external dependencies.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {}
+}

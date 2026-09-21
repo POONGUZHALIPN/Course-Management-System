@@ -1,0 +1,62 @@
+/* ---- from pages/admin-dashboard.html ---- */
+.dash-sidebar.admin{ background:linear-gradient(180deg,#0b1220,#111827); }
+
+/* ---- from pages/admin-login.html ---- */
+.auth-wrapper.admin-bg{
+    background:linear-gradient(120deg,#0b1220,#111827 60%,#1e293b);
+}
+
+/* ---- from pages/admin-register.html ---- */
+.auth-wrapper.admin-bg{
+    background:linear-gradient(120deg,#0b1220,#111827 60%,#1e293b);
+}
+
+/* ---- from pages/course-player.html ---- */
+.player-wrap{ max-width:920px; margin:0 auto; padding:30px 20px 60px; }
+.module-list-item{
+    display:flex; align-items:center; gap:14px;
+    padding:14px 16px; border-radius:12px;
+    border:1px solid #eef0f7; background:#fff;
+    margin-bottom:10px; cursor:pointer; transition:.2s;
+}
+.module-list-item:hover{ border-color:var(--primary); }
+.module-list-item.active{ border-color:var(--primary); background:#eef2ff; }
+.module-list-item .step-icon{
+    width:34px;height:34px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    background:#eef0f7; color:#94a3b8; flex-shrink:0; font-weight:700; font-size:13px;
+}
+.module-list-item.done .step-icon{ background:var(--success); color:#fff; }
+.module-list-item.active .step-icon{ background:var(--primary); color:#fff; }
+
+.quiz-option{
+    display:block; border:1.5px solid #e2e8f0; border-radius:10px;
+    padding:12px 16px; margin-bottom:10px; cursor:pointer; transition:.15s;
+}
+.quiz-option:hover{ border-color:var(--primary); }
+.quiz-option input{ margin-right:10px; }
+.quiz-option.selected{ border-color:var(--primary); background:#eef2ff; }
+.quiz-option.correct{ border-color:var(--success); background:#ecfdf5; }
+.quiz-option.incorrect{ border-color:var(--danger); background:#fef2f2; }
+
+video{ width:100%; border-radius:12px; background:#000; }
+
+/* ---- from pages/forgot-password.html ---- */
+.code-display{
+    text-align:center;
+    letter-spacing:8px;
+    font-size:28px;
+    font-weight:800;
+    color:var(--primary);
+    background:var(--surface-alt);
+    border-radius:12px;
+    padding:14px;
+    margin-bottom:18px;
+    font-family:'Poppins', monospace;
+}
+.step-dot{
+    width:8px;height:8px;border-radius:50%;
+    background:#e2e8f0;
+    display:inline-block;
+}
+.step-dot.active{ background:var(--primary); }
